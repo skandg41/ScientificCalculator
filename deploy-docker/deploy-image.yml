@@ -1,5 +1,5 @@
-  ---
-    - name: Pull docker image of Scientific Calculator
+---
+- name: Pull docker image of Scientific Calculator
   hosts: all
   tasks:
     - name: Pull image
