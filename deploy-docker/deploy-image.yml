@@ -1,0 +1,8 @@
+  ----
+  - name: Pull docker image of Scientific Calculator
+    hosts: all
+    tasks:
+      - name: Pull image
+        docker_image:
+          name: skandg41/scientific-calc-cont
+          source: pull
