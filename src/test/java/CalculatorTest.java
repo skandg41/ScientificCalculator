@@ -11,7 +11,7 @@ public class CalculatorTest {
     @Test
     public void squareRootTruePositive(){
         assertEquals("Square root of number for True Positive", 4, calculator.squareRoot(16), DELTA);
-        assertEquals("Square root of number for True Positive", 12.86, calculator.squareRoot(165.4), DELTA);
+        assertEquals("Square root of number for True Positive", 12.860793132618221, calculator.squareRoot(165.4), DELTA);
     }
 
     @Test
@@ -34,7 +34,7 @@ public class CalculatorTest {
 
     @Test
     public void naturalLogTruePositive(){
-        assertEquals("Natural Log of number for True Positive", 4.043051267, calculator.factorial(57), DELTA);
+        assertEquals("Natural Log of number for True Positive", 4.052691950487722E76, calculator.factorial(57), DELTA);
         assertEquals("Natural Log of number for True Positive", 3.6888794541, calculator.factorial(40), DELTA);
     }
     @Test
@@ -45,13 +45,13 @@ public class CalculatorTest {
 
     @Test
     public void powerTruePositive(){
-        assertEquals("Power of number for True Positive", 400, calculator.factorial(20), DELTA);
-        assertEquals("Power of number for True Positive", 8100, calculator.factorial(90), DELTA);
+        assertEquals("Power of number for True Positive", 400, calculator.power(20,2), DELTA);
+        assertEquals("Power of number for True Positive", 729000, calculator.power(90,3), DELTA);
     }
 
     @Test
     public void powerFalsePositive(){
-        assertNotEquals("Power of number for False Positive", 100, calculator.factorial(9), DELTA);
-        assertNotEquals("Power of number for False Positive", 50, calculator.factorial(7), DELTA);
+        assertNotEquals("Power of number for False Positive", 100, calculator.power(9,2), DELTA);
+        assertNotEquals("Power of number for False Positive", 50, calculator.power(7,2), DELTA);
     }
 }
