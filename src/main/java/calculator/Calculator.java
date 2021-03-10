@@ -24,7 +24,7 @@ public class Calculator {
             }catch (InputMismatchException e){
                 return;
             }
-            double result = -1000;
+
             switch (choice){
                 case 1:
                     // Square Root
@@ -35,10 +35,7 @@ public class Calculator {
                         logger.error("Invalid input, input is not a number "+ err);
                         return;
                     }
-                    logger.info("[SQUAREROOT] - " + num1 );
-                    result = Math.sqrt(num1);
-                    logger.info("[RESULT - SQUAREROOT] - " + result);
-                    System.out.println("Square root of " + num1 + " is " + result);
+                    System.out.println("Square root of " + num1 + " is " + calculator.squareRoot(num1));
                     break;
                 case 2:
                     //Factorial
@@ -49,10 +46,7 @@ public class Calculator {
                         logger.error("Invalid input, input is not a number "+ err);
                         return;
                     }
-                    logger.info("[FACTORIAL] - " + num1);
-                    result = calculator.factorial(num1);
-                    logger.info("[RESULT - FACTORIAL] - " + result);
-                    System.out.println("Factorial of "+num1+" is : "+ result);
+                    System.out.println("Factorial of "+num1+" is : "+ calculator.factorial(num1));
                     break;
                 case 3:
                     //Natural Log
@@ -63,10 +57,7 @@ public class Calculator {
                         logger.error("Invalid input, input is not a number "+ err);
                         return;
                     }
-                    logger.info("[NATURAL LOG] - " + num1);
-                    result = Math.log(num1);
-                    logger.info("[RESULT - NATURAL LOG] - " + result);
-                    System.out.println("Natural log of "+num1+" is : "+ result);
+                    System.out.println("Natural log of "+num1+" is : "+ calculator.naturalLog(num1));
                     break;
                 case 4:
                     //Power
@@ -79,23 +70,44 @@ public class Calculator {
                         logger.error("Invalid input, input is not a number "+ err);
                         return;
                     }
-                    logger.info("[POWER] - " + num1 + ", " + num2);
-                    result = Math.pow(num1,num2);
-                    logger.info("[RESULT - POWER] - " + result);
-                    System.out.println("The value of "+num1+"^"+num2+" is : "+result);
+                    System.out.println("The value of "+num1+"^"+num2+" is : "+ calculator.power(num1,num2));
                     break;
                 default:
                     System.out.println("Invalid Option selected , Exiting..........");
                     return;
             }
         }while (true);
-
     }
-    double factorial(double n){
-        double fact = 1;
-        for(double i=1;i<=n;i++){
-            fact *= i;
+
+    public double squareRoot(double num){
+        logger.info("[SQUAREROOT] - " + num );
+        double result = Math.sqrt(num);
+        logger.info("[RESULT - SQUAREROOT] - " + result);
+        return result;
+    }
+
+    public double factorial(double num){
+        logger.info("[FACTORIAL] - " + num);
+        double result = 1;
+        for(double i=1;i<=num;i++) {
+            result *= i;
         }
-        return fact;
+        logger.info("[RESULT - FACTORIAL] - " + result);
+        return result;
+    }
+
+    public double naturalLog(double num){
+        logger.info("[NATURAL LOG] - " + num);
+        double result = Math.log(num);
+        logger.info("[RESULT - NATURAL LOG] - " + result);
+        return result;
+    }
+
+    public double power(double num,double pow){
+        logger.info("[POWER] - " + num + ", " + pow);
+        double result = Math.pow(num,pow);
+        logger.info("[RESULT - POWER] - " + result);
+        return result;
+
     }
 }
