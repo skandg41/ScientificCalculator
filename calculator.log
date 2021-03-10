@@ -1,0 +1,64 @@
+10/Mar/2021:17:09:43 428 [Calculator.java] [INFO] calculator.Calculator [FACTORIAL] - 4.0
+10/Mar/2021:17:09:43 435 [Calculator.java] [INFO] calculator.Calculator [RESULT - FACTORIAL] - 24.0
+10/Mar/2021:17:09:43 436 [Calculator.java] [INFO] calculator.Calculator [FACTORIAL] - 7.0
+10/Mar/2021:17:09:43 436 [Calculator.java] [INFO] calculator.Calculator [RESULT - FACTORIAL] - 5040.0
+10/Mar/2021:17:09:43 438 [Calculator.java] [INFO] calculator.Calculator [SQUAREROOT] - 16.0
+10/Mar/2021:17:09:43 439 [Calculator.java] [INFO] calculator.Calculator [RESULT - SQUAREROOT] - 4.0
+10/Mar/2021:17:09:43 439 [Calculator.java] [INFO] calculator.Calculator [SQUAREROOT] - 165.4
+10/Mar/2021:17:09:43 440 [Calculator.java] [INFO] calculator.Calculator [RESULT - SQUAREROOT] - 12.860793132618221
+10/Mar/2021:17:09:43 441 [Calculator.java] [INFO] calculator.Calculator [FACTORIAL] - 57.0
+10/Mar/2021:17:09:43 442 [Calculator.java] [INFO] calculator.Calculator [RESULT - FACTORIAL] - 4.052691950487722E76
+10/Mar/2021:17:09:43 442 [Calculator.java] [INFO] calculator.Calculator [FACTORIAL] - 40.0
+10/Mar/2021:17:09:43 443 [Calculator.java] [INFO] calculator.Calculator [RESULT - FACTORIAL] - 8.159152832478977E47
+10/Mar/2021:17:09:43 450 [Calculator.java] [INFO] calculator.Calculator [SQUAREROOT] - 81.0
+10/Mar/2021:17:09:43 451 [Calculator.java] [INFO] calculator.Calculator [RESULT - SQUAREROOT] - 9.0
+10/Mar/2021:17:09:43 451 [Calculator.java] [INFO] calculator.Calculator [SQUAREROOT] - 60.0
+10/Mar/2021:17:09:43 452 [Calculator.java] [INFO] calculator.Calculator [RESULT - SQUAREROOT] - 7.745966692414834
+10/Mar/2021:17:09:43 453 [Calculator.java] [INFO] calculator.Calculator [FACTORIAL] - 4.0
+10/Mar/2021:17:09:43 453 [Calculator.java] [INFO] calculator.Calculator [RESULT - FACTORIAL] - 24.0
+10/Mar/2021:17:09:43 454 [Calculator.java] [INFO] calculator.Calculator [FACTORIAL] - 7.0
+10/Mar/2021:17:09:43 454 [Calculator.java] [INFO] calculator.Calculator [RESULT - FACTORIAL] - 5040.0
+10/Mar/2021:17:09:43 455 [Calculator.java] [INFO] calculator.Calculator [FACTORIAL] - 3.0
+10/Mar/2021:17:09:43 455 [Calculator.java] [INFO] calculator.Calculator [RESULT - FACTORIAL] - 6.0
+10/Mar/2021:17:09:43 456 [Calculator.java] [INFO] calculator.Calculator [FACTORIAL] - 5.0
+10/Mar/2021:17:09:43 456 [Calculator.java] [INFO] calculator.Calculator [RESULT - FACTORIAL] - 120.0
+10/Mar/2021:17:09:43 457 [Calculator.java] [INFO] calculator.Calculator [POWER] - 9.0, 2.0
+10/Mar/2021:17:09:43 458 [Calculator.java] [INFO] calculator.Calculator [RESULT - POWER] - 81.0
+10/Mar/2021:17:09:43 458 [Calculator.java] [INFO] calculator.Calculator [POWER] - 7.0, 2.0
+10/Mar/2021:17:09:43 459 [Calculator.java] [INFO] calculator.Calculator [RESULT - POWER] - 49.0
+10/Mar/2021:17:09:43 460 [Calculator.java] [INFO] calculator.Calculator [POWER] - 20.0, 2.0
+10/Mar/2021:17:09:43 460 [Calculator.java] [INFO] calculator.Calculator [RESULT - POWER] - 400.0
+10/Mar/2021:17:09:43 461 [Calculator.java] [INFO] calculator.Calculator [POWER] - 90.0, 3.0
+10/Mar/2021:17:09:43 461 [Calculator.java] [INFO] calculator.Calculator [RESULT - POWER] - 729000.0
+10/Mar/2021:17:10:31 415 [Calculator.java] [INFO] calculator.Calculator [FACTORIAL] - 4.0
+10/Mar/2021:17:10:31 421 [Calculator.java] [INFO] calculator.Calculator [RESULT - FACTORIAL] - 24.0
+10/Mar/2021:17:10:31 421 [Calculator.java] [INFO] calculator.Calculator [FACTORIAL] - 7.0
+10/Mar/2021:17:10:31 422 [Calculator.java] [INFO] calculator.Calculator [RESULT - FACTORIAL] - 5040.0
+10/Mar/2021:17:10:31 423 [Calculator.java] [INFO] calculator.Calculator [SQUAREROOT] - 16.0
+10/Mar/2021:17:10:31 424 [Calculator.java] [INFO] calculator.Calculator [RESULT - SQUAREROOT] - 4.0
+10/Mar/2021:17:10:31 424 [Calculator.java] [INFO] calculator.Calculator [SQUAREROOT] - 165.4
+10/Mar/2021:17:10:31 425 [Calculator.java] [INFO] calculator.Calculator [RESULT - SQUAREROOT] - 12.860793132618221
+10/Mar/2021:17:10:31 426 [Calculator.java] [INFO] calculator.Calculator [FACTORIAL] - 57.0
+10/Mar/2021:17:10:31 426 [Calculator.java] [INFO] calculator.Calculator [RESULT - FACTORIAL] - 4.052691950487722E76
+10/Mar/2021:17:10:31 427 [Calculator.java] [INFO] calculator.Calculator [FACTORIAL] - 40.0
+10/Mar/2021:17:10:31 427 [Calculator.java] [INFO] calculator.Calculator [RESULT - FACTORIAL] - 8.159152832478977E47
+10/Mar/2021:17:10:31 428 [Calculator.java] [INFO] calculator.Calculator [SQUAREROOT] - 81.0
+10/Mar/2021:17:10:31 428 [Calculator.java] [INFO] calculator.Calculator [RESULT - SQUAREROOT] - 9.0
+10/Mar/2021:17:10:31 429 [Calculator.java] [INFO] calculator.Calculator [SQUAREROOT] - 60.0
+10/Mar/2021:17:10:31 429 [Calculator.java] [INFO] calculator.Calculator [RESULT - SQUAREROOT] - 7.745966692414834
+10/Mar/2021:17:10:31 430 [Calculator.java] [INFO] calculator.Calculator [FACTORIAL] - 4.0
+10/Mar/2021:17:10:31 430 [Calculator.java] [INFO] calculator.Calculator [RESULT - FACTORIAL] - 24.0
+10/Mar/2021:17:10:31 430 [Calculator.java] [INFO] calculator.Calculator [FACTORIAL] - 7.0
+10/Mar/2021:17:10:31 431 [Calculator.java] [INFO] calculator.Calculator [RESULT - FACTORIAL] - 5040.0
+10/Mar/2021:17:10:31 432 [Calculator.java] [INFO] calculator.Calculator [FACTORIAL] - 3.0
+10/Mar/2021:17:10:31 432 [Calculator.java] [INFO] calculator.Calculator [RESULT - FACTORIAL] - 6.0
+10/Mar/2021:17:10:31 432 [Calculator.java] [INFO] calculator.Calculator [FACTORIAL] - 5.0
+10/Mar/2021:17:10:31 433 [Calculator.java] [INFO] calculator.Calculator [RESULT - FACTORIAL] - 120.0
+10/Mar/2021:17:10:31 433 [Calculator.java] [INFO] calculator.Calculator [POWER] - 9.0, 2.0
+10/Mar/2021:17:10:31 434 [Calculator.java] [INFO] calculator.Calculator [RESULT - POWER] - 81.0
+10/Mar/2021:17:10:31 434 [Calculator.java] [INFO] calculator.Calculator [POWER] - 7.0, 2.0
+10/Mar/2021:17:10:31 434 [Calculator.java] [INFO] calculator.Calculator [RESULT - POWER] - 49.0
+10/Mar/2021:17:10:31 435 [Calculator.java] [INFO] calculator.Calculator [POWER] - 20.0, 2.0
+10/Mar/2021:17:10:31 435 [Calculator.java] [INFO] calculator.Calculator [RESULT - POWER] - 400.0
+10/Mar/2021:17:10:31 436 [Calculator.java] [INFO] calculator.Calculator [POWER] - 90.0, 3.0
+10/Mar/2021:17:10:31 436 [Calculator.java] [INFO] calculator.Calculator [RESULT - POWER] - 729000.0

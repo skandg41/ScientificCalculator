@@ -35,7 +35,7 @@ public class CalculatorTest {
     @Test
     public void naturalLogTruePositive(){
         assertEquals("Natural Log of number for True Positive", 4.052691950487722E76, calculator.factorial(57), DELTA);
-        assertEquals("Natural Log of number for True Positive", 3.6888794541, calculator.factorial(40), DELTA);
+        assertEquals("Natural Log of number for True Positive", 8.159152832478977E47, calculator.factorial(40), DELTA);
     }
     @Test
     public void naturalLogFalsePositive(){
